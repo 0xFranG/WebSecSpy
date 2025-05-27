@@ -1,4 +1,4 @@
-⚙️ WebSecSpy v1.0
+#⚙️ WebSecSpy v1.0
 WebSecSpy is a web reconnaissance and security analysis tool built for cybersecurity professionals, penetration testers, and ethical hackers.
 It provides a comprehensive suite of features for scanning URLs, detecting vulnerabilities, analyzing HTTP headers, and much more.
 
@@ -21,17 +21,17 @@ python WebSecS.py -f urls.txt [options]
 
 🔍 Features
 Option			Description
--U, --url		Scan a single target URL
--f, --file		Scan multiple URLs from a file
--p, --ports		Scan for open ports
--s, --ssl		Check SSL/TLS version
--H, --headers		Display HTTP response headers
--P, --proxy		Use a proxy (e.g., http://127.0.0.1:8080)
--sL, --subdomains	Enumerate subdomains using Sublist3r
--dW, --detect-waf	Detect Web Application Firewall (WAF)
--l, --find-login	Detect common login/admin panels
--i, --injection		Scan for injection vulnerabilities (levels 1–5)
--dC, --dos-check	Simulate a DoS attack (1: light, 2: medium, 3: aggressive)
+-U, --url		Scan a single target URL.
+-f, --file		Scan multiple URLs from a file.
+-p, --ports		Scan for open ports.
+-s, --ssl		Check SSL/TLS version.
+-H, --headers		Display HTTP response headers.
+-P, --proxy		Use a proxy (e.g., http://127.0.0.1:8080).
+-sL, --subdomains	Enumerate subdomains using Sublist3r.
+-dW, --detect-waf	Detect Web Application Firewall (WAF).
+-l, --find-login	Detect common login/admin panels.
+-i, --injection		Scan for injection vulnerabilities (levels 1–5).
+-dC, --dos-check	Simulate a DoS attack (1: light, 2: medium, 3: aggressive).
 
 
 📘 Examples
