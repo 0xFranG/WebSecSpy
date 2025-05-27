@@ -1109,7 +1109,7 @@ def test_injection_vulnerabilities(url, level=None):
 
 # Main function
 def main():
-    parser = argparse.ArgumentParser(description="Web Recon & Status Code Tracker")
+    parser = argparse.ArgumentParser(description="Web Recon & Security Analyzer")
     parser.add_argument("-U", "--url", type=str, help="URL to check")
     parser.add_argument("-f", "--file", type=str, help="File containing URLs")
     parser.add_argument("-p", "--ports", action="store_true", help="Scan ports")
