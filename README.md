@@ -2,24 +2,24 @@
 WebSecSpy is a web reconnaissance and security analysis tool built for cybersecurity professionals, penetration testers, and ethical hackers.
 It provides a comprehensive suite of features for scanning URLs, detecting vulnerabilities, analyzing HTTP headers, and much more.
 
-🛠️ Developed by [0xFranG]
+# Author
+🛠️Developed by [0xFranG]
 🔗 LinkedIn: https://www.linkedin.com/in/francisco-g-48309821a/ 
 📸 IG: @CyberwithFran
 
 
-🔧 Installation
+# 🔧 Installation
 Make sure you have Python 3.7+ installed.
 	git clone https://github.com/0xFranG/websecspy.git
 	cd websecspy
 	pip install -r requirements.txt
 
 
-⚙️ Usage
+# ⚙️ Usage
 python WebSecS.py -U http(s)://www.example.com [options]
 python WebSecS.py -f urls.txt [options]
 
-
-🔍 Features
+# 🔍Features
 Option			Description
 -U, --url		Scan a single target URL.
 -f, --file		Scan multiple URLs from a file.
@@ -37,20 +37,20 @@ Option			Description
 
 
 📘 Examples
-# Scan a single URL with port scanning
+ Scan a single URL with port scanning
 python WebSecS.py -U https://example.com -p
 
-# Scan multiple URLs from a file and show headers
+ Scan multiple URLs from a file and show headers
 python WebSecS.py -f urls.txt -H
 
-# Enumerate subdomains and check for WAF
+ Enumerate subdomains and check for WAF
 python WebSecS.py -U https://target.com -sL -dW
 
-# Run through a proxy and search for login pages
+ Run through a proxy and search for login pages
 python WebSecS.py -U http://example.com -P http://127.0.0.1:8080 -l
 
-# Check for injection vulnerabilities (level 3)
+ Check for injection vulnerabilities (level 3)
 python WebSecS.py -U https://vulnsite.com -i 3
 
-# Simulate a medium-level DoS attack
+ Simulate a medium-level DoS attack
 python WebSecS.py -U https://target.com -dC 2
