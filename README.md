@@ -21,9 +21,10 @@ pip install -r requirements.txt
 ```
 
 # ⚙️Usage
+```bash
 python WebSecS.py -U http(s)://www.example.com [options]
 python WebSecS.py -f urls.txt [options]
-
+```
 
 # 🔍Features
 | Option              | Description                                                               |
