@@ -23,7 +23,6 @@ cd websecspy
 pip install -r requirements.txt
 
 
-```markdown
 ## ⚙️ Usage
 
 ```bash
