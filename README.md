@@ -14,10 +14,9 @@ It provides a comprehensive suite of features for scanning URLs, detecting vulne
 ---
 
 ## 🔧 Installation
-
 Make sure you have **Python 3.7+** installed.
 
-```bash
+
 git clone https://github.com/0xFranG/websecspy.git
 cd websecspy
 pip install -r requirements.txt
@@ -42,9 +41,7 @@ python WebSecS.py -f urls.txt [options]
 | `-i, --injection`   | Scan for injection vulnerabilities (levels 1–5)                           |
 | `-dC, --dos-check`  | Simulate a DoS attack (1: light, 2: medium, 3: aggressive)                |
 
-## 📘 Examples
 
-```bash
 # Scan a single URL with port scanning
 python WebSecS.py -U https://example.com -p
 
