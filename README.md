@@ -12,8 +12,8 @@ It provides a comprehensive suite of features for scanning URLs, detecting vulne
 📸 IG: [@CyberwithFran](https://instagram.com/CyberwithFran)
 
 ---
+# 🔧 Installation
 ```bash
-## 🔧 Installation
 Make sure you have **Python 3.7+** installed.
 git clone https://github.com/0xFranG/websecspy.git
 cd websecspy
