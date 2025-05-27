@@ -39,8 +39,7 @@ python WebSecS.py -f urls.txt [options]
 | `-dW, --detect-waf` | Detect Web Application Firewall (WAF)                                     |
 | `-l, --find-login`  | Detect common login/admin panels                                          |
 | `-i, --injection`   | Scan for injection vulnerabilities (levels 1–5)                           |
-| `-dC, --dos-check`  | Simulate a DoS attack (1: light, 2: medium, 3: aggressive)                |
-| ------------------- | to detect vulnerabilities without causing prolonged harm.                 |             
+| `-dC, --dos-check`  | Simulate a DoS attack (1: light, 2: medium, 3: aggressive) to detect vulnerabilities without causing prolonged harm.              |           
 
 ```bash
 # Scan a single URL with port scanning
