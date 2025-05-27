@@ -22,16 +22,12 @@ git clone https://github.com/0xFranG/websecspy.git
 cd websecspy
 pip install -r requirements.txt
 
-
-## ⚙️ Usage
-
-```bash
+⚙️ Usage
 python WebSecS.py -U http(s)://www.example.com [options]
 python WebSecS.py -f urls.txt [options]
 
-```markdown
-## 🔍 Features
 
+#🔍 Features
 | Option              | Description                                                               |
 |---------------------|---------------------------------------------------------------------------|
 | `-U, --url`         | Scan a single target URL                                                  |
