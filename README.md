@@ -1,4 +1,4 @@
-#⚙️ WebSecSpy v1.0
+# WebSecSpy
 WebSecSpy is a web reconnaissance and security analysis tool built for cybersecurity professionals, penetration testers, and ethical hackers.
 It provides a comprehensive suite of features for scanning URLs, detecting vulnerabilities, analyzing HTTP headers, and much more.
 
@@ -32,6 +32,8 @@ Option			Description
 -l, --find-login	Detect common login/admin panels.
 -i, --injection		Scan for injection vulnerabilities (levels 1–5).
 -dC, --dos-check	Simulate a DoS attack (1: light, 2: medium, 3: aggressive).
+
+
 
 
 📘 Examples
