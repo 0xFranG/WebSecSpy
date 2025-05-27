@@ -15,7 +15,7 @@ It provides a comprehensive suite of features for scanning URLs, detecting vulne
 # 🔧 Installation
 ```bash
 Make sure you have **Python 3.7+** installed.
-git clone https://github.com/0xFranG/websecspy.git
+git clone https://github.com/0xFranG/WebSecSpy.git
 cd WebSecSpy
 pip install -r requirements.txt
 ```
