@@ -1,6 +1,6 @@
 # WebSecSpy v1.0
 WebSecSpy is a web security analysis tool designed for cybersecurity professionals, penetration testers, and ethical hackers.
-Developed by [0xFranG | IG: @CyberwithFran | LinkedIn: https://linkedin.com/francisco-g-48309821a]
+Developed by [0xFranG | IG: @CyberwithFran | LinkedIn: https://linkedin.com/in/francisco-g-48309821a]
 
 
 
